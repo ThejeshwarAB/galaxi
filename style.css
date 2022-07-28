@@ -197,12 +197,23 @@ a{
 
 ol li, ul li{
     /* text-align: left; */
-    font-size: smaller;
+    font-size: medium;
     text-align: justify;
 }
 
-small{
-    font-size: medium;
+.modal-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-header{
+    text-align: center;
+    color: white;
+    background-color: midnightblue;
+}
+
+.modal-header button{
+    background-color: white;
 }
 
 .animate-character
