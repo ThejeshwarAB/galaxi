@@ -96,7 +96,7 @@ iframe{
 .mheading{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -308,6 +308,13 @@ ol li, ul li{
   @media (min-width: 100px) { 
     .small{
         display: block;
+        
+    }
+    .heading{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
     }
     .big{
         display: none;
@@ -326,6 +333,12 @@ ol li, ul li{
 @media (min-width: 576px) { 
     .small{
         display: block;
+    }
+    .heading{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
     }
     .big{
         display: none;
@@ -346,6 +359,12 @@ ol li, ul li{
     .big{
         display: block;
     }
+    .heading{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 0;
+    }
     .small-flex{
         display: none;
     }
@@ -361,6 +380,12 @@ ol li, ul li{
     }
     .big{
         display: none;
+    }
+    .heading{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
     }
     .small-flex{
         display: flex;
@@ -378,6 +403,12 @@ ol li, ul li{
     .big{
         display: block;
     }
+    .heading{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 0;
+    }
     .small-flex{
         display: none;
     }
@@ -393,6 +424,12 @@ ol li, ul li{
     }
     .big{
         display: block;
+    }
+    .heading{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 0;
     }
     .small-flex{
         display: none;
