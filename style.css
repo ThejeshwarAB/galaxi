@@ -68,10 +68,10 @@ iframe{
     margin: auto;
 }
 
-.carousel-control-next,
+/* .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
-}
+} */
 
 .vector{
     width: 80%;
