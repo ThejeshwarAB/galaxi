@@ -58,6 +58,21 @@ iframe{
     margin: 0;
 }
 
+.carousel img {
+    border-radius: 0px !important;
+    /* width: 450px; */
+    width: 140%;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
 .vector{
     width: 80%;
 }
