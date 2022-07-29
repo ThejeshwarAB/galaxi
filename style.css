@@ -199,6 +199,11 @@ hr {
     font-size: 40px;
 }
 
+.special-small{
+    font-family: 'Niconne', cursive;
+    font-size: 20px;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -263,7 +268,7 @@ ol li, ul li{
   }
 }
 
-.shadow-heading, .special {
+.shadow-heading, .special, .special-small {
     color: white;
     text-shadow: 6px 6px black,
                  3px 3px black;
