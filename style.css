@@ -125,6 +125,10 @@ iframe{
     background-blend-mode: multiply;
 }
 
+.navbar-nav li:hover>.dropdown-menu {
+    display: block;
+}
+
 .navbar-nav a{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: large;
@@ -148,6 +152,13 @@ iframe{
     background-color: midnightblue;
     color: white;
     border-radius: 5px;
+      /* border-bottom: 1px solid white; */
+}
+
+.navbar-nav .dropdown .dropdown-menu a:hover{
+    background-color: midnightblue;
+    color: white;
+    border-radius: 0px;
       /* border-bottom: 1px solid white; */
 }
 
