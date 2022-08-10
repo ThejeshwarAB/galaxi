@@ -1,5 +1,5 @@
 body{
-    background-color:  midnightblue ;
+    background-color:  darkblue;
     /* background-image: url('./assets/header-background.png'); */
     /* opacity: 0.5; */
     z-index: 0;
@@ -149,14 +149,14 @@ iframe{
 }
 
 .navbar-nav a:hover{
-    background-color: midnightblue;
+    background-color: darkblue;
     color: white;
     border-radius: 5px;
       /* border-bottom: 1px solid white; */
 }
 
 .navbar-nav .dropdown .dropdown-menu a:hover{
-    background-color: midnightblue;
+    background-color: darkblue;
     color: white;
     border-radius: 0px;
       /* border-bottom: 1px solid white; */
@@ -164,13 +164,13 @@ iframe{
 
 .navbar-nav .active{
     /* color: b !important; */
-    /* background-color: midnightblue; */
+    /* background-color: darkblue; */
     font-weight: bold;
 }
 
 .navbar-nav .active:hover{
     color: white !important;
-    /* background-color: midnightblue; */
+    /* background-color: darkblue; */
     font-weight: bold;
 }
 
@@ -222,8 +222,8 @@ a{
 
 .special-button{
     padding: -50px;
-    background-color: midnightblue !important;
-    /* color: midnightblue !important; */
+    background-color: darkblue !important;
+    /* color: darkblue !important; */
 }
 
 ol li, ul li{
@@ -240,7 +240,7 @@ ol li, ul li{
 .modal-header{
     text-align: center;
     color: white;
-    background-color: midnightblue;
+    background-color: darkblue;
 }
 
 .modal-header button{

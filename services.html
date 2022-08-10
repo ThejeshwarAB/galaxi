@@ -30,6 +30,7 @@
 
 <body>
 
+    
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -43,19 +44,30 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                         <li class="nav-item dropdown">
-                            <a class="nav-link active" href="services.html" id="navbarDropdownMenuLink" role="button"
+                            <a class="nav-link " href="services.html" id="navbarDropdownMenuLink" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Services
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="services.html">All services</a>
                                 <a class="dropdown-item" href="./serviceslist/power_electronics.html">Power electronics</a>
                                 <a class="dropdown-item" href="./serviceslist/pcb_design.html">PCB design</a>
                                 <a class="dropdown-item" href="./serviceslist/embedded_hardware.html">Embedded hardware</a>
+                                <a class="dropdown-item" href="./serviceslist/embedded_software.html">Embedded software</a>
                                 <a class="dropdown-item" href="./serviceslist/iot_solutions.html">IoT solutions</a>
                                 <a class="dropdown-item" href="./serviceslist/plc_scada_automation.html">PLC Scada automation</a>
                                 <a class="dropdown-item" href="./serviceslist/mechanical_design.html">Mechanical design</a>
+                                <a class="dropdown-item" href="./serviceslist/component_engineering.html">Component engineering</a>
+                                <a class="dropdown-item" href="./serviceslist/value_engineering.html">Value engineering</a>
+                                <a class="dropdown-item" href="./serviceslist/validation_and_verification.html">Validation and verification</a>
+                                <a class="dropdown-item" href="./serviceslist/hmi_design.html">HMI design</a>
+                                <a class="dropdown-item" href="./serviceslist/search-engine-optimisation.html">Search engine optimisation</a>
+                                <a class="dropdown-item" href="./serviceslist/application_development.html">Application development</a>
+                                <a class="dropdown-item" href="./serviceslist/graphic_design.html">Graphic design</a>
+                                <a class="dropdown-item" href="./serviceslist/uiux_design.html">UI/UX design</a>
+                                <a class="dropdown-item" href="./serviceslist/responsive-website-development.html">Responsive web development</a>
                             </div>
                         </li>
                         <a class="nav-link" href="products.html">Products</a>
@@ -68,7 +80,6 @@
             </div>
         </nav>
     </div>
-
     <header>
         <section>
             <div class="container">
@@ -121,16 +132,16 @@
         <hr>
 
         <div class="row">
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-3 col-sm-6">
                 <img src="./assets/image-power-electronics.png" alt="image-power-electronics" class="image"
                     type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">
                 <br><br>
                 <p class="para-heading">Power electronics</p>
-                <p class="para"><small>
+                <!-- <p class="para"><small>
                         Complete product design, prototyping and testing solution for all kind of power electronics
                         products with our expertise.
                     </small>
-                </p>
+                </p> -->
             </div>
 
             <!-- Modal 1 -->
@@ -214,12 +225,12 @@
                 </div>
             </div> -->
 
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-3 col-sm-6">
                 <img src="./assets/image-pcb-design.png" alt="image-pcb-design" class="image" type="button"
                     class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">
                 <br><br>
                 <p class="para-heading">PCB design</p>
-                <p class="para"><small>Schematic and PCB design for all kinds of products up to 38 layers. </small></p>
+                <!-- <p class="para"><small>Schematic and PCB design for all kinds of products up to 38 layers. </small></p> -->
             </div>
 
             <!-- Modal 3 -->
@@ -276,13 +287,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-3 col-sm-6">
                 <img src="./assets/image-embedded-hardware.png" alt="image-embedded-hardware" class="image"
                     type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal4">
                 <br><br>
                 <p class="para-heading">Embedded hardware</p>
-                <p class="para"><small>Scratch to end development for all kinds of embedded hardware’s by using all
-                        types of devices. </small></p>
+                <!-- <p class="para"><small>Scratch to end development for all kinds of embedded hardware’s by using all
+                        types of devices. </small></p> -->
             </div>
 
             <!-- Modal 4 -->
@@ -314,16 +325,15 @@
                 </div>
             </div>
 
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-3 col-sm-6">
                 <img src="./assets/image-iot-solutions.png" alt="image-iot-solutions" class="image" type="button"
                     class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal5">
                 <br><br>
                 <p class="para-heading">IoT solutions</p>
-                <p class="para"><small>Simplify operations with our IoT automation. </small></p>
+                <!-- <p class="para"><small>Simplify operations with our IoT automation. </small></p> -->
             </div>
+
+
 
             <!-- Modal 5 -->
             <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -350,15 +360,18 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="col-md-4 col-sm-12">
+        <div class="row">
+
+            <div class="col-md-3 col-sm-6">
                 <img src="./assets/image-plc-scada-automation.png" alt="image-plc-scada-automation" class="image"
                     type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
                 <br><br>
                 <p class="para-heading">PLC Scada automation</p>
-                <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
                         PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
-                        your application. </small></p>
+                        your application. </small></p> -->
             </div>
 
             <!-- Modal 6 -->
@@ -373,8 +386,10 @@
                             <ul>
                                 <li>Our hardware expertise:
                                     <ol>
-                                        <li>Rockwell Automation: ControlLogix, CompactLogix, SLC-500, PLC 5, Power Flex drives, GuardLogix, AAdvance</li>
-                                        <li>Siemens: S7-400 H/F, S7-300, S7-1500, S7-1200, S5, Failsafe Controller, SINAMICS, SIMODRIVE, SICAM PAS</li>
+                                        <li>Rockwell Automation: ControlLogix, CompactLogix, SLC-500, PLC 5, Power Flex
+                                            drives, GuardLogix, AAdvance</li>
+                                        <li>Siemens: S7-400 H/F, S7-300, S7-1500, S7-1200, S5, Failsafe Controller,
+                                            SINAMICS, SIMODRIVE, SICAM PAS</li>
                                         <li>Mitsubishi: MELSEC-Q, L & F Series</li>
                                         <li>Schneider Electric: Quantum, Premium, M340, Altivar Drives</li>
                                         <li>ABB: AC500, AC800F, ACS 800 Drive</li>
@@ -390,13 +405,13 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-3 col-sm-6">
                 <img src="./assets/image-mechanical-design.png" alt="image-mechanical-design" class="image"
                     type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal7">
                 <br><br>
                 <p class="para-heading">Mechanical design</p>
-                <p class="para"><small>Complete solution for Analysis, design, Development and up to manufacturing.
-                    </small></p>
+                <!-- <p class="para"><small>Complete solution for Analysis, design, Development and up to manufacturing.
+                    </small></p> -->
             </div>
 
             <!-- Modal 7 -->
@@ -428,7 +443,118 @@
                 </div>
             </div>
 
-            <!-- <div class="col-md-4 col-sm-12">
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-embedded-software.png" alt="image-plc-scada-automation" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">Embedded software</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-web-dev.png" alt="image-plc-scada-automation" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">Responsive website development</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-hmi-design.png" alt="image-plc-scada-automation" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">HMI design</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-validation-verification.png" alt="image-plc-scada-automation" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">Validation and verification</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-value-engineering.png" alt="image-plc-scada-automation" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">Value engineering</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-component-engineering.png" alt="image-plc-scada-automation" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">Component engineering</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-mobile-app-dev.png" alt="image-mobile-app-dev" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">Mobile application development</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-search-engine-optimisation.png" alt="image-search-engine-optimisation" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">Search engine optimisation</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-uiux-design.png" alt="image-uiux-design" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">UI/UX design</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <img src="./assets/image-graphic-design.png" alt="image-plc-scada-automation" class="image"
+                    type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
+                <br><br>
+                <p class="para-heading">Graphic design</p>
+                <!-- <p class="para"><small>We have well qualified professionals with programming expertise on all types of
+                        PLCs from any manufacturers for all kinds of industries. We have experts to select PLCs based on
+                        your application. </small></p> -->
+            </div>
+
+        </div>
+
+        <!-- <div class="col-md-4 col-sm-12">
                 <img src="./assets/image-cfd-analysis.png" alt="image-cfd-analysis" class="image" type="button"
                     class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal8">
                 <br><br>
@@ -456,8 +582,6 @@
                     </div>
                 </div>
             </div> -->
-
-        </div>
 
     </section>
 
