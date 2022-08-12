@@ -1,6 +1,6 @@
 body{
-    background-color:  darkblue;
-    /* background-image: url('./assets/header-background.png'); */
+    background-color:  midnightblue;
+    background-image: url('./assets/bg.webp');
     /* opacity: 0.5; */
     z-index: 0;
     background-blend-mode: multiply;
@@ -27,6 +27,16 @@ iframe{
 
 .row{
     padding: 15px;
+}
+
+.dropdown-menu {
+    max-height: 300px;
+    max-width: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 15px;
+    scrollbar-width: thin;
+    text-align: center;
 }
 
 .round{
@@ -149,28 +159,28 @@ iframe{
 }
 
 .navbar-nav a:hover{
-    background-color: darkblue;
+    background-color: midnightblue;
     color: white;
     border-radius: 5px;
       /* border-bottom: 1px solid white; */
 }
 
 .navbar-nav .dropdown .dropdown-menu a:hover{
-    background-color: darkblue;
+    background-color: midnightblue;
     color: white;
-    border-radius: 0px;
+    border-radius: 5px;
       /* border-bottom: 1px solid white; */
 }
 
 .navbar-nav .active{
     /* color: b !important; */
-    /* background-color: darkblue; */
+    /* background-color: midnightblue; */
     font-weight: bold;
 }
 
 .navbar-nav .active:hover{
     color: white !important;
-    /* background-color: darkblue; */
+    /* background-color: midnightblue; */
     font-weight: bold;
 }
 
@@ -189,6 +199,8 @@ iframe{
 
 img{
     border-radius: 10%;
+    max-width: 100%; 
+    height: auto;
 }
 
 .navigation{
@@ -220,10 +232,14 @@ a{
     color: white;
 }
 
+.dropdown-item{
+    font-size: medium !important;
+}
+
 .special-button{
     padding: -50px;
-    background-color: darkblue !important;
-    /* color: darkblue !important; */
+    background-color: midnightblue !important;
+    /* color: midnightblue !important; */
 }
 
 ol li, ul li{
@@ -240,7 +256,7 @@ ol li, ul li{
 .modal-header{
     text-align: center;
     color: white;
-    background-color: darkblue;
+    background-color: midnightblue;
 }
 
 .modal-header button{
