@@ -1,3 +1,10 @@
+
+*{
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
 body{
     background-color:  midnightblue;
     background-image: url('./assets/bg.webp');
@@ -203,11 +210,22 @@ img{
     height: auto;
 }
 
-.navigation{
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
+/* .navigation{ */
+    .navbar{
+        position:fixed;
+        width:100%;
+        z-index: 1000000;
+        top:0;
+    }
+/* } */
+
+.carousel-indicators button {
+    padding: 10px;
+    /* height: 100px; */
+    width: 5px;
+    /* border-radius: 500px; */
+  }
+
 hr {
     display:block;
     border:none;
@@ -309,6 +327,11 @@ ol li, ul li{
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
 
 /* iframe {
     display:block;
