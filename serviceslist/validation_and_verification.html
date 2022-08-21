@@ -31,11 +31,11 @@
 
 <body>
 
-    <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navigation fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient navbar-default navbar-static-top py-0">
             <div class="container-fluid">
                 <a href="../index.html">
-                    <img src="../assets/watermark.png" alt="logo" width="60">
+                    <img src="../assets/watermark.png" alt="logo" width="50">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -45,100 +45,159 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link" href="../index.html">Home</a>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active" href="../services.html" id="navbarDropdownMenuLink" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link active dropdown-toggle" href="../services.html" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="../services.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    All services
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="power_electronics.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Power electronics
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="pcb_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    PCB design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="embedded_hardware.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Embedded hardware
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="embedded_software.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Embedded software
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="iot_solutions.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    IoT solutions
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="plc_scada_automation.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    PLC Scada automation
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="mechanical_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Mechanical design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="component_engineering.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Component engineering
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="value_engineering.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Value engineering
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="validation_and_verification.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Validation and verification
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="hmi_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    HMI design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="search-engine-optimisation.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    SEO service
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="website_development.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Website development
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="application_development.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Application development
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="graphic_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Graphic design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="uiux_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    UI/UX design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
+                            <div class="dropdown-menu w-80 mt-0" aria-labelledby="navbarDropdown" style="
+                                            border-top-left-radius: 0;
+                                            border-top-right-radius: 0;
+                                          ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="list-group list-group-flush">
+                                                <a href="../services.html"
+                                                    class="list-group-item list-group-item-action">Goto all services</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-lg-2 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Electronics & Mech Engg
+                                                </p>
+                                                <a href="power_electronics.html"
+                                                    class="list-group-item list-group-item-action">Power
+                                                    Electronics service</a>
+                                                <a href="pcb_design.html"
+                                                    class="list-group-item list-group-item-action">PCB layout and
+                                                    schematic</a>
+                                                <a href="mechanical_design.html"
+                                                    class="list-group-item list-group-item-action">Mechanical design</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Embedded services
+                                                </p>
+                                                <a href="embedded_hardware.html"
+                                                    class="list-group-item list-group-item-action">Embedded
+                                                    hardware</a>
+                                                <a href="embedded_software.html"
+                                                    class="list-group-item list-group-item-action">Embedded
+                                                    software</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Industrial automation
+                                                </p>
+                                                <a href="plc_scada_automation.html"
+                                                    class="list-group-item list-group-item-action">PLC Scada
+                                                    automation</a>
+                                                <a href="hmi_design.html"
+                                                    class="list-group-item list-group-item-action">HMI design</a>
+                                                <a href="iot_solutions.html"
+                                                    class="list-group-item list-group-item-action">IoT
+                                                    solutions</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Software services
+                                                </p>
+                                                <a href="graphic_design.html"
+                                                    class="list-group-item list-group-item-action">Graphic
+                                                    design</a>
+                                                <a href="uiux_design.html"
+                                                    class="list-group-item list-group-item-action">UI/UX
+                                                    design</a>
+                                                <a href="website_development.html"
+                                                    class="list-group-item list-group-item-action">Website
+                                                    development</a>
+                                                <a href="application_development.html"
+                                                    class="list-group-item list-group-item-action">Application
+                                                    development</a>
+                                                <a href="search-engine-optimisation.html"
+                                                    class="list-group-item list-group-item-action">Search Engine
+                                                    Optimisation</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Validation & Verification
+                                                </p>
+                                                <a href="validation_and_verification.html"
+                                                    class="list-group-item list-group-item-action">
+                                                    Validation and Verification service</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Value & component engg
+                                                </p>
+                                                <a href="value_engineering.html"
+                                                    class="list-group-item list-group-item-action">Value
+                                                    Engineering</a>
+                                                <a href="component_engineering.html"
+                                                    class="list-group-item list-group-item-action">Component
+                                                    Engineering</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </li>
-                        <a class="nav-link" href="../products.html">Products</a>
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <div class="dropdown-menu w-80 mt-0" aria-labelledby="navbarDropdown" style="
+                                            border-top-left-radius: 0;
+                                            border-top-right-radius: 0;
+                                          ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="list-group list-group-flush">
+                                                <a href="../products.html"
+                                                    class="list-group-item list-group-item-action">Goto all products</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 col-lg-12 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Our products
+                                                </p>
+                                                <a href="" class="list-group-item list-group-item-action">100kW
+                                                    Bidirectional convertor
+                                                </a>
+                                                <a href="" class="list-group-item list-group-item-action">10kW
+                                                    Rectifier</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         <a class="nav-link" href="../about.html">About us</a>
                         <a class="nav-link" href="../contact.html">Contact us</a>
                         <a class="nav-link" href="../blog.html">Blog</a>
@@ -149,8 +208,7 @@
         </nav>
     </div>
 
-
-    <header>
+    <!-- <header>
         <section>
             <div class="container">
 
@@ -191,7 +249,7 @@
 
             </div>
         </section>
-    </header>
+    </header> -->
 
     <section class="even-section shadow m-0 p-3" id="validation_and_verification">
         <br>
@@ -257,6 +315,145 @@
             </small>
         </div>
     </footer> -->
+
+    <!-- Footer -->
+    <footer class="bg-dark bg-gradient text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-linkedin"></i></a>
+
+                <!-- Github -->
+                <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-github"></i
+        ></a> -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Text -->
+
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center p-3">
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="../services.html" class="text-white">All services</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="../products.html" class="text-white">All products</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="../about.html" class="text-white">About us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="../contact.html" class="text-white">Contact us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="../blog.html" class="text-white">Blog</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="../careers.html" class="text-white">Careers</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3 para" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="">GALAXIETS</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
 </body>
 

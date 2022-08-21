@@ -32,8 +32,8 @@
 
 <body>
 
-    <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navigation fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient navbar-default navbar-static-top py-0">
             <div class="container-fluid">
                 <a href="index.html">
                     <img src="./assets/watermark.png" alt="logo" width="50">
@@ -46,100 +46,159 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" href="index.html">Home</a>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="services.html" id="navbarDropdownMenuLink" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="services.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    All services
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/power_electronics.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Power electronics
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/pcb_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    PCB design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/embedded_hardware.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Embedded hardware
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/embedded_software.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Embedded software
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/iot_solutions.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    IoT solutions
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/plc_scada_automation.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    PLC Scada automation
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/mechanical_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Mechanical design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/component_engineering.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Component engineering
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/value_engineering.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Value engineering
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/validation_and_verification.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Validation and verification
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/hmi_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    HMI design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/search-engine-optimisation.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    SEO service
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/website_development.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Website development
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/application_development.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Application development
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/graphic_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    Graphic design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
-                                <a class="dropdown-item" href="./serviceslist/uiux_design.html">
-                                    <i class="fa fa-angle-double-left"></i>
-                                    UI/UX design
-                                    <i class="fa fa-angle-double-right"></i>
-                                </a>
+                            <div class="dropdown-menu w-80 mt-0" aria-labelledby="navbarDropdown" style="
+                                            border-top-left-radius: 0;
+                                            border-top-right-radius: 0;
+                                          ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="list-group list-group-flush">
+                                                <a href="services.html"
+                                                    class="list-group-item list-group-item-action">Goto all services</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-lg-2 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Electronics & Mech Engg
+                                                </p>
+                                                <a href="serviceslist/power_electronics.html"
+                                                    class="list-group-item list-group-item-action">Power
+                                                    Electronics service</a>
+                                                <a href="serviceslist/pcb_design.html"
+                                                    class="list-group-item list-group-item-action">PCB layout and
+                                                    schematic</a>
+                                                <a href="serviceslist/mechanical_design.html"
+                                                    class="list-group-item list-group-item-action">Mechanical design</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Embedded services
+                                                </p>
+                                                <a href="serviceslist/embedded_hardware.html"
+                                                    class="list-group-item list-group-item-action">Embedded
+                                                    hardware</a>
+                                                <a href="serviceslist/embedded_software.html"
+                                                    class="list-group-item list-group-item-action">Embedded
+                                                    software</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Industrial automation
+                                                </p>
+                                                <a href="serviceslist/plc_scada_automation.html"
+                                                    class="list-group-item list-group-item-action">PLC Scada
+                                                    automation</a>
+                                                <a href="serviceslist/hmi_design.html"
+                                                    class="list-group-item list-group-item-action">HMI design</a>
+                                                <a href="serviceslist/iot_solutions.html"
+                                                    class="list-group-item list-group-item-action">IoT
+                                                    solutions</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Software services
+                                                </p>
+                                                <a href="serviceslist/graphic_design.html"
+                                                    class="list-group-item list-group-item-action">Graphic
+                                                    design</a>
+                                                <a href="serviceslist/uiux_design.html"
+                                                    class="list-group-item list-group-item-action">UI/UX
+                                                    design</a>
+                                                <a href="serviceslist/website_development.html"
+                                                    class="list-group-item list-group-item-action">Website
+                                                    development</a>
+                                                <a href="serviceslist/application_development.html"
+                                                    class="list-group-item list-group-item-action">Application
+                                                    development</a>
+                                                <a href="serviceslist/search-engine-optimisation.html"
+                                                    class="list-group-item list-group-item-action">Search Engine
+                                                    Optimisation</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Validation & Verification
+                                                </p>
+                                                <a href="serviceslist/validation_and_verification.html"
+                                                    class="list-group-item list-group-item-action">
+                                                    Validation and Verification service</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2 mb-3 mb-md-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Value & component engg
+                                                </p>
+                                                <a href="serviceslist/value_engineering.html"
+                                                    class="list-group-item list-group-item-action">Value
+                                                    Engineering</a>
+                                                <a href="serviceslist/component_engineering.html"
+                                                    class="list-group-item list-group-item-action">Component
+                                                    Engineering</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </li>
-                        <a class="nav-link" href="products.html">Products</a>
+                        <li class="nav-item dropdown position-static">
+                            <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <div class="dropdown-menu w-80 mt-0" aria-labelledby="navbarDropdown" style="
+                                            border-top-left-radius: 0;
+                                            border-top-right-radius: 0;
+                                          ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="list-group list-group-flush">
+                                                <a href="products.html"
+                                                    class="list-group-item list-group-item-action">Goto all products</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 col-lg-12 mb-lg-0">
+                                            <div class="list-group list-group-flush">
+                                                <p
+                                                    class="mb-0 list-group-item text-uppercase font-weight-bold dropdown-header">
+                                                    Our products
+                                                </p>
+                                                <a href="" class="list-group-item list-group-item-action">100kW
+                                                    Bidirectional convertor
+                                                </a>
+                                                <a href="" class="list-group-item list-group-item-action">10kW
+                                                    Rectifier</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         <a class="nav-link" href="about.html">About us</a>
                         <a class="nav-link" href="contact.html">Contact us</a>
                         <a class="nav-link" href="blog.html">Blog</a>
@@ -205,8 +264,8 @@
                         aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                         aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
+                    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button> -->
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -221,27 +280,29 @@
                     <div class="carousel-item">
                         <img src="./assets/image-carousel-4.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <!-- <div class="carousel-item">
                         <img src="./assets/image-carousel-5.png" class="d-block w-100" alt="...">
-                    </div>
+                    </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <i class="fa fa-chevron-circle-left" aria-hidden="true" style="font-size: 2em"></i>
+                    <!-- <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span> -->
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <i class="fa fa-chevron-circle-right" aria-hidden="true" style="font-size: 2em"></i>
+                    <!-- <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span> -->
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-        <br>
+        <!-- <br> -->
     </section>
 
     <section class="odd-section shadow m-0 p-0 small" id="carousel-small">
-        <br>
+        <!-- <br> -->
         <div class="container-fluid">
             <div id="carouselExampleIndicators-small" class="carousel slide" data-bs-ride="carousel"
                 data-bs-interval="2500">
@@ -254,37 +315,41 @@
                         aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators-small" data-bs-slide-to="3"
                         aria-label="Slide 4"></button>
+                    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button> -->
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/image-carousal-1.jpeg" class="d-block w-100" alt="...">
+                        <img src="./assets/image-carousel-1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/image-carousal-2.jpeg" class="d-block w-100" alt="...">
+                        <img src="./assets/image-carousel-2.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/image-carousal-3.jpeg" class="d-block w-100" alt="...">
+                        <img src="./assets/image-carousel-3.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/image-carousal-4.jpeg" class="d-block w-100" alt="...">
+                        <img src="./assets/image-carousel-4.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/image-carousal-5.jpeg" class="d-block w-100" alt="...">
-                    </div>
+                    <!-- <div class="carousel-item">
+                    <img src="./assets/image-carousel-5.png" class="d-block w-100" alt="...">
+                </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-small"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <i class="fa fa-chevron-circle-left" aria-hidden="true" style="font-size: 2em"></i>
+                    <!-- <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span> -->
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-small"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <i class="fa fa-chevron-circle-right" aria-hidden="true" style="font-size: 2em"></i>
+                    <!-- <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span> -->
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-        <br>
+        <!-- <br> -->
     </section>
 
 
@@ -301,7 +366,7 @@
                 <div class="col-md-6 col-sm-12">
                     <img src="./assets/vector-analytics.webp" alt="" class="vector">
                 </div>
-                <div class="col-md-6 col-sm-12 round shadow p-3 d-flex flex-column align-self-center">
+                <div class="col-md-6 col-sm-12 p-3 d-flex flex-column align-self-center">
                     <p class="para-heading">Personalized Analytics</p>
                     <p class="para">We take raw data from our clients and turn it into a meaningful
                         results.
@@ -312,7 +377,7 @@
             </div>
 
             <div class="row big-flex">
-                <div class="col-md-6 col-sm-12 round shadow p-3 d-flex flex-column align-self-center">
+                <div class="col-md-6 col-sm-12 p-3 d-flex flex-column align-self-center">
                     <p class="para-heading">Rigorous Testing</p>
                     <p class="para align-self-center">We follow strict entry and exit criteria to avoid failures.
                         Also, we deal with all possible combinations of test cases and test data so that every
@@ -329,7 +394,7 @@
                 <div class="col-md-6 col-sm-12">
                     <img src="./assets/vector-testing.webp" alt="" class="vector">
                 </div>
-                <div class="col-md-6 col-sm-12 round shadow p-3 d-flex flex-column align-self-center">
+                <div class="col-md-6 col-sm-12 p-3 d-flex flex-column align-self-center">
                     <p class="para-heading">Rigorous Testing</p>
                     <p class="para align-self-center">We follow strict entry and exit criteria to avoid failures.
                         Also, we deal with all possible combinations of test cases and test data so that every
@@ -343,7 +408,7 @@
                 <div class="col-md-6 col-sm-12">
                     <img src="./assets/vector-quality.webp" alt="" class="vector">
                 </div>
-                <div class="col-md-6 col-sm-12 round shadow p-3 d-flex flex-column align-self-center">
+                <div class="col-md-6 col-sm-12 p-3 d-flex flex-column align-self-center">
                     <p class="para-heading">Quality Guaranteed</p>
                     <p class="para align-self-center">Once we finish our initial analysis, we perform multiple quality
                         checks.
@@ -369,6 +434,145 @@
             </small>
         </div>
     </footer> -->
+
+    <!-- Footer -->
+    <footer class="bg-dark bg-gradient text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fa fa-linkedin"></i></a>
+
+                <!-- Github -->
+                <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-github"></i
+        ></a> -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Text -->
+
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center p-3">
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="services.html" class="text-white">All services</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="products.html" class="text-white">All products</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="about.html" class="text-white">About us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="contact.html" class="text-white">Contact us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="blog.html" class="text-white">Blog</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 text-center">
+                        <!-- <h5 class="text-uppercase">Links</h5> -->
+
+                        <ul class="list-unstyled mb-0">
+                            <!-- <li>
+                <a href="#!" class="text-white">Home</a>
+              </li> -->
+                            <li>
+                                <a href="careers.html" class="text-white">Careers</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3 para" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="">GALAXIETS</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
 </body>
 
