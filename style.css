@@ -48,12 +48,17 @@ iframe{
 .dropdown-menu {
     max-height: 300px;
     max-width: auto;
+    width: max-content;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 15px;
+    padding: 0px;
     scrollbar-width: thin;
     text-align: center;
-    /* background-color: #000; */
+    /* right: 0; 
+    left: 0;
+    margin: 0 auto; */
+    /* left:200px !important; */
+    /* position: static; */
 }
 
 .round{
@@ -68,9 +73,9 @@ iframe{
 
 .modal-body{
     display: table;
-  margin-left: auto;
-  margin-right: auto;
-  list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
 }
 
 .logo{
@@ -152,9 +157,13 @@ iframe{
     background-blend-mode: multiply;
 }
 
-.navbar-nav li:hover>.dropdown-menu {
+/* .navbar-nav li:hover>.dropdown-menu {
     display: block;
-}
+} */
+
+/* .dropdown-menu{
+    display: block;
+} */
 
 .navbar-nav{
     padding: 0px;
@@ -294,7 +303,7 @@ a{
 ol li, ul li{
     /* text-align: left; */
     font-size: medium;
-    text-align: justify;
+    text-align: left;
 }
 
 .modal-title{
@@ -397,6 +406,12 @@ ol li, ul li{
         font-size: 25px;
         margin: 0;
     }
+    .para-heading{
+        font-size: 15px;
+    }
+    .para{
+        font-size: 12px;
+    }
     .big{
         display: none;
     }
@@ -421,6 +436,12 @@ ol li, ul li{
         font-size: 25px;
         margin: 0;
     }
+    .para-heading{
+        font-size: 15px;
+    }
+    .para{
+        font-size: 12px;
+    }
     .big{
         display: none;
     }
@@ -439,6 +460,12 @@ ol li, ul li{
     }
     .big{
         display: block;
+    }
+    .para-heading{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 15px;
     }
     .heading{
         font-family: 'Roboto Condensed', sans-serif;
@@ -462,6 +489,12 @@ ol li, ul li{
     }
     .big{
         display: none;
+    }
+    .para-heading{
+        font-size: 15px;
+    }
+    .para{
+        font-size: 12px;
     }
     .heading{
         font-family: 'Roboto Condensed', sans-serif;
@@ -493,6 +526,12 @@ ol li, ul li{
     .big{
         display: block;
     }
+    .para-heading{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 15px;
+    }
     .heading{
         font-family: 'Roboto Condensed', sans-serif;
         font-weight: bold;
@@ -522,6 +561,12 @@ ol li, ul li{
     }
     .big{
         display: block;
+    }
+    .para-heading{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 15px;
     }
     .heading{
         font-family: 'Roboto Condensed', sans-serif;
