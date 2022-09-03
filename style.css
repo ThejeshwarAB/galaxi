@@ -47,13 +47,16 @@ iframe{
 
 .dropdown-menu {
     max-height: 300px;
-    max-width: auto;
-    width: max-content;
+    /* width: 900px; */
+    /* max-width: auto; */
+    /* width: min-content; */
+    /* width: fit-content; */
     overflow-y: auto;
     overflow-x: hidden;
     padding: 0px;
     scrollbar-width: thin;
     text-align: center;
+    /* display: inline-block */
     /* right: 0; 
     left: 0;
     margin: 0 auto; */
@@ -242,8 +245,8 @@ iframe{
 
 .carousel .carousel-indicators button {
     width: 15px;
-   height: 15px;
-   border-radius: 100%;
+    height: 15px;
+    border-radius: 100%;
  }
 
 img{
@@ -253,10 +256,10 @@ img{
 }
 
 .navbar{
-        position: sticky;
-        width: 100%;
-        z-index: 1000000;
-        top: 0;
+    position: sticky;
+    width: 100%;
+    z-index: 1000000;
+    top: 0;
 }
 
 .carousel-indicators button {
