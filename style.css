@@ -585,7 +585,7 @@ ol li, ul li{
     }
  }
 
-.slider-wrapper{
+.slider-wrapper-special{
     width: auto;
     height: 100px;
     position: relative;
@@ -595,14 +595,14 @@ ol li, ul li{
     overflow: hidden;
 }
 
-.slide{
+.slide-special{
     height: 100px;
     display: flex;
     align-items: center;
     animation: slideshow 35s linear infinite;
 }
 
-.slide img{
+.slide-special img{
     height: 100px;
     padding: 0px 75px;
 }
