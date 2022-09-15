@@ -164,6 +164,12 @@ iframe{
     display: block;
 } */
 
+@media only screen and (min-width:768px){
+    .navbar-nav li:hover>.dropdown-menu {
+    display:block;
+  }
+}
+
 /* .dropdown-menu{
     display: block;
 } */
