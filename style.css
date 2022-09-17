@@ -46,7 +46,7 @@ iframe{
 }
 
 .dropdown-menu {
-    max-height: 300px;
+    max-height: 500px;
     /* width: 900px; */
     /* max-width: auto; */
     /* width: min-content; */
@@ -259,6 +259,12 @@ img{
     border-radius: 10%;
     max-width: 100%; 
     height: auto;
+}
+
+.special-image{
+    border-radius: 0px !important;
+    width: 100%;
+    /* opacity: 0.5; */
 }
 
 .navbar{
