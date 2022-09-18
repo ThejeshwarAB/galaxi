@@ -660,9 +660,10 @@ ol li, ul li{
     opacity: 0.5;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: midnightblue !important;
+}
 
-.nav>li>button.active,
-.nav>li>button:hover,
-.nav>li>button:focus {
-   background-color: #5c8a36;
+.nav-pills .nav-link{
+    color: black;
 }
