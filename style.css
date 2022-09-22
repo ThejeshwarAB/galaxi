@@ -664,6 +664,14 @@ ol li, ul li{
     background-color: midnightblue !important;
 }
 
+.nav-pills .nav-link.active:hover{
+    background-color: midnightblue !important;
+}
+
+.nav-pills .nav-link:hover{
+    background-color: lightgrey !important;
+}
+
 .nav-pills .nav-link{
     color: black;
 }
