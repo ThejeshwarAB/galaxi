@@ -601,7 +601,7 @@ ol li, ul li{
     width: auto;
     height: 100px;
     position: relative;
-    background: white;
+    background: transparent;
     box-shadow: 0px 10px -10px rgba(0,0,0,0.2);
     display: flex;
     overflow: hidden;
@@ -612,9 +612,12 @@ ol li, ul li{
     display: flex;
     align-items: center;
     animation: slideshow 35s linear infinite;
+    /* padding: 0px 150px; */
 }
 
 .slide-special img{
+    /* border-radius: 50%; */
+    /* border: 1px solid black; */
     height: 100px;
     padding: 0px 75px;
 }
@@ -638,11 +641,13 @@ ol li, ul li{
 }
 
 #team-image-cover{
-    background-image: url('assets/team.png');
+    background-image: url('assets/team.jpg');
+    background-size: cover;                     
+    background-repeat: no-repeat;
 }
 
 #team-image-cover::before{
-    /* background-image: url('assets/team.jpg'); */
+    /* background-image: url('assets/team1'); */
     opacity: 0.5;
 }
 
