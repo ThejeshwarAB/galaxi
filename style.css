@@ -760,3 +760,7 @@ ol li, ul li{
 .nav-pills .nav-link{
     color: black;
 }
+
+.text-white{
+    font-family: 'Inter', sans-serif;
+}
