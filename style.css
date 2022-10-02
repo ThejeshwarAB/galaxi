@@ -18,8 +18,13 @@ body{
 }
 
 .vector{
+    width: 30vw !important;
+}
+
+.special-vector{
     width: 75vw !important;
 }
+
 
 footer{
     font-size: smaller;
